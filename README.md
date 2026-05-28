@@ -129,6 +129,15 @@ To be updated
 
 To be updated
 
+### Calculate confusion matrix and additional metrics
+
+```
+python scripts\calculate_metrics.py
+```
+
+This will populate the `results` folder with the confusion-matrix plots and output the metrics as a LaTeX table in the terminal.
+
+
 ## Contact
 Alexander Rasch
 <div>

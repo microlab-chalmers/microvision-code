@@ -1,17 +1,18 @@
 <div align="center">
-  <a href="https://www.snd.se" target="_blank"> <img width="50%" src="assets/logo_black.png" alt="MicroVision"></a>
+  <a href="https://doi.org/10.1016/j.ssci.2026.107371" target="_blank"> <img width="50%" src="assets/logo_black.png" alt="MicroVision"></a>
 </div>
 
 <hr>
 <div align="center">
-    <a href="https://arxiv.org/abs/2603.18192"><img src="https://img.shields.io/badge/arXiv-2603.18192-b31b1b.svg?logo=arxiv" alt="arXiv:MY-INDEX"></a>
+    <a href="https://doi.org/10.1016/j.ssci.2026.107371"><img src="https://img.shields.io/badge/DOI-10.1016%2Fj.ssci.2026.107371-blue?logo=doi" alt="arXiv:MY-INDEX"></a>
     <a href="https://snd.se/en/catalogue/dataset/2025-74"><img src="https://img.shields.io/badge/SND-2025--74-blue.svg?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxMDAuOSA4Ni4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMDAuOSA4Ni4zOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qye2ZpbGw6IzY0OUREMjt9Cgkuc3Qze2ZpbGw6I0U0NDYyQzt9Cgkuc3Q0e2ZpbGw6IzFGMzk2Mzt9Cjwvc3R5bGU+CjxnPgoJPHBhdGggY2xhc3M9InN0MiIgZD0iTTM5LjYsMTIuMmw0LjIsOC45YzYuOS0zLjMsMTUuMi0zLjMsMjIuNCwwLjdjMTEuOSw2LjUsMTYuMywyMS41LDkuOCwzMy41QzY5LjUsNjcuMiw1NC41LDcxLjYsNDIuNSw2NQoJCUMzNS41LDYxLjEsMzEsNTQuNCwzMCw0N2wtOS43LDEuNGMxLjUsMTAuMyw3LjcsMTkuOCwxNy42LDI1LjJjMTYuNyw5LjEsMzcuNiwzLDQ2LjgtMTMuN2M5LjEtMTYuNywzLTM3LjctMTMuNy00Ni44CgkJQzYwLjksNy42LDQ5LjMsNy43LDM5LjYsMTIuMnoiLz4KCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik00NC4yLDM4LjRsLTI5LjYsNC4zYy0wLjItMS40LTAuMy0yLjgtMC4zLTQuM2MwLTExLjksNi45LTIyLjEsMTctMjdMNDQuMiwzOC40eiIvPgoJPHBhdGggY2xhc3M9InN0NCIgZD0iTTU0LjUsNDMuNWwtNS43LTEyLjFjMy43LTEuNyw4LjEtMS43LDExLjksMC40YzYuNCwzLjUsOC43LDExLjUsNS4yLDE3LjlTNTQuNCw1OC40LDQ4LDU0LjkKCQljLTMuNy0yLTYtNS45LTYuNi05LjgiLz4KPC9nPgo8L3N2Zz4K" alt="SND Dataset"></a>
     <!-- <a href="https://colab.research.google.com/test.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> -->
+    <a href="https://arxiv.org/abs/2603.18192"><img src="https://img.shields.io/badge/arXiv-2603.18192-b31b1b.svg?logo=arxiv" alt="arXiv:2603.18192"></a>
 </div>
 
 # MicroVision: An Open Dataset and Benchmark Models for Detecting Vulnerable Road Users and Micromobility Vehicles
 
-Welcome to the repository for code related to the MicroVision dataset. More info about the dataset can be obtained from our [preprint](https://arxiv.org/abs/2603.18192).
+Welcome to the repository for code related to the MicroVision dataset. More info about the dataset can be obtained from our [paper](https://doi.org/10.1016/j.ssci.2026.107371) published on Safety Science.
 
 <!-- <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sdZJUZWMX-Q?si=hoxdzt9gLekago-N" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
@@ -30,6 +31,8 @@ Additionally, we provide weights for some common state-of-the-art object-detecti
 - `microvision_yolo11.pt`: Weights file for the YOLO11-X model
 - `microvision_fasterrcnn.pth`: Weights file for the Detectron2 Faster R-CNN models
 - `microvision_rfdetr.pth`: Weights file for the RF-DETR large model (resolution 1232 px)
+
+Note: If the dataset is not accessible through SND please contact the [Chalmers Data office](mailto:dataoffice@chalmers.se).
 
 ## Toolkit
 
